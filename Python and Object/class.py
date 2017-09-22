@@ -2,6 +2,11 @@
 class Person:
 	department = "School of Information"
 
+	def __init__(self,name,location):
+		self.name = name
+		self.location = location
+
+
 	def set_name(self,new_name):
 		self.name = new_name
 
@@ -10,7 +15,7 @@ class Person:
 
 
 
-x = Person()
-x.set_name("Osman")
+x = Person("osman","dhaka")
+
 
 print x.name
