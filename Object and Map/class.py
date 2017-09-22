@@ -18,4 +18,6 @@ class Person:
 x = Person("osman","dhaka")
 
 
-print x.name
+
+
+print ('{} is the name of student and he lives in {}'.format(x.name,x.location) )
