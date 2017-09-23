@@ -1,7 +1,7 @@
 import numpy as np
 
 mylist = [1,2,3]
-
 x = np.array(mylist)
 
-print x
+two_D_arrya = np.array( [ [1,2],[2,3] ] )
+two_D_arrya.shape
