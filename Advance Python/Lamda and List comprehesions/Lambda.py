@@ -7,4 +7,8 @@ for person in people:
     print(split_title_and_name(person) == (lambda x : '{} {}'.format(x.split()[0], x.split()[-1])) (person ) )
 
 
- 
+# Creating lambda function
+
+lambda_function = lambda a,b,c : a+b
+
+print lambda_function(1,2,3)
