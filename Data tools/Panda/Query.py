@@ -43,8 +43,8 @@ print S[:3]
 
 # some time calling by index create ambiguity. 
 # That is why we need to use iloc and loc.
-# iloc = find the value using row number
-# loc = find the value using tag 
+# iloc = find the value by index position
+# loc = find the value by index level 
 
 
 print S.loc['Taekwondo']
