@@ -24,7 +24,7 @@ df = pd.DataFrame( [purchase_1,purchase_2,purchase_3 ], index = ['Store 1','Stor
 
 print df 
 
-
+# direct access of column 
 
 print df ['Cost']
 print df ['Item Purchased']
@@ -32,3 +32,14 @@ print df ['Item Purchased']
 #print df.T
 
 print df.loc[ ['Store 1']  , [ 'Name', "Cost" ] ] 
+
+print ('-' *50)
+
+
+print df.drop('Store 1') # it will drop a row
+
+# delete column 
+
+del df['Name']
+print df
+
