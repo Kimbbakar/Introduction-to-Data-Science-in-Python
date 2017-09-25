@@ -43,3 +43,10 @@ print df.drop('Store 1') # it will drop a row
 del df['Name']
 print df
 
+print ('-' *50)
+
+# Add column
+
+df ['Location'] = None
+
+print df
