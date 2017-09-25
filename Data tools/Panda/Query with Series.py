@@ -49,4 +49,3 @@ print S[:3]
 
 print S.loc['Taekwondo']
 print S['Golf']
-
