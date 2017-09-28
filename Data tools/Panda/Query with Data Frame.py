@@ -36,3 +36,9 @@ print ('-' *50)
 df_cpy = df.where(df['Cost'] >3.00)
 print df_cpy
 
+# .where create some NaN column
+
+df_cpy = df_cpy.dropna() # as the default parameter is 0 it will only NaN row.
+
+print df_cpy
+
