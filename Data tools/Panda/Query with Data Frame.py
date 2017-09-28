@@ -28,3 +28,11 @@ print ('-' *50)
  
 
 print df.loc[ : ,['Name' , 'Item Purchased' ] ][( df['Cost'] >3.00) &  ( df['Cost'] <6.00) ]
+
+print ('-' *50)
+
+# using .where
+
+df_cpy = df.where(df['Cost'] >3.00)
+print df_cpy
+
