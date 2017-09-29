@@ -9,6 +9,7 @@ for i in df.columns:
 print df.index
 print df.head()
 
+#################################################
 print '-'*50
 df = df.set_index('name')
 
@@ -18,4 +19,13 @@ for i in df.columns:
 print df.index
 print df.head() # set index remove last index row totally.
 
+print df.head()
+
+
+
+#################################################
+
+print '-'*50
+# index become numeric value 0...n
+df  = df.reset_index()
 print df.head()
