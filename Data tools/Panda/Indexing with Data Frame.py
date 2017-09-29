@@ -29,3 +29,6 @@ print '-'*50
 # index become numeric value 0...n
 df  = df.reset_index()
 print df.head()
+
+df.index . name = 'ID'
+print df.head()
