@@ -9,4 +9,7 @@ df.index.name = "id"
 
 df = df.set_index( [df.index,'name'] )
 
-print df.head()
+
+df . index . names = ['1st Index', '2nd Index' ]
+
+print df.head() 
